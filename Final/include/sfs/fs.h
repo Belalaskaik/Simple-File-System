@@ -46,6 +46,7 @@ typedef struct FileSystem FileSystem;
 struct FileSystem {
     Disk        *disk;                          /* Disk file system is mounted on */
     bool        *free_blocks;                   /* Free block bitmap */
+    bool        *free_inodes;                   /* Free inode bitmap */
     SuperBlock   meta_data;                     /* File system meta data */
 };
 

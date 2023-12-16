@@ -5,7 +5,7 @@
 
 #include <stdbool.h>
 #include <stdlib.h>
-
+#include <sys/types.h>
 /* Disk Constants */
 
 #define BLOCK_SIZE      (1<<12)
